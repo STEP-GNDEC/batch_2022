@@ -1,0 +1,62 @@
+<html>
+<head>
+<link rel="stylesheet" href="j.css">
+</head>
+<body>
+<h1 class="head">MARKSHEET</h1>
+<br>
+<table>
+<style>
+table,th,td
+{
+border:2px solid black;
+text-align:center;
+width:60%;
+}
+</style>
+<tr>
+<th>NAME</th>
+<th>MARKS</th>
+</tr>
+<tr>
+<td>Marya</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Mohan</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Shelly</td>
+<td>70</td>
+</tr>
+<tr>
+<td>sohanli</td>
+<td>80</td>
+</tr>
+<tr>
+<td>sohal</td>
+<td>90</td>
+</tr>
+</table>
+<br>
+<br>
+<hr>
+<script language="javascript" type="text/javascript">
+           var marks=prompt("PLEASE ENTER MARKS");
+           var linebreak="<br/>";
+           if(marks >= 90){
+           document.write("<b> A GRADE</b>");
+           }
+           else if(marks >= 50){
+           document.write("<b> B GRADE</b>");
+           }
+           else if(marks >= 80){
+           document.write("<b> C GRADE</b>");
+           }
+           else{
+           document.write("<b> FAIL</b>");
+           }
+</script>
+</body>
+</html>

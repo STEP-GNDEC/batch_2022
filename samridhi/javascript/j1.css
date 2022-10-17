@@ -1,0 +1,23 @@
+body
+{
+background-color: gray;
+}
+h1
+{ 
+color: white;
+background-color: black;
+text-align: center;
+font-size: 500%;
+border-style: hidden hidden solid hidden;
+font-style:italic;
+}
+p
+{ 
+font-size:200%;
+font-style:oblique;
+}
+a
+{
+font-size:150%;
+font-style:oblique;
+}

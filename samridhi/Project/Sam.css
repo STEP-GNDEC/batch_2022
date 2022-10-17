@@ -1,0 +1,160 @@
+.first #logo {
+margin-left:25px;
+position:fixed;
+}
+.first .navbar a:link , a:visited{
+color: #1a001a;
+margin-left:200px;
+font-size:25px;
+padding:20px;
+text-align:center;
+text-decoration:none;
+text-shadow:black;
+}
+.first .navbar a:hover , a:active{
+background-color:lightgrey;
+}
+body {
+background: #FCEDDA;
+}
+#button{
+margin:25px;
+font-size:25px;
+padding:15px;
+text-align:center;
+color:black;
+}
+#button:hover{
+background-color:white;
+border-style:solid 4px black;
+}
+
+.home {
+background-image:url('t1.jpg'); 
+min-height:100%;
+background-size:cover;
+}
+.home .h{
+text-align:center;
+font-family:times new roman;
+font-size:50px;
+text-shadow:1px 1px 1px black;
+}
+.about .content{
+color:white;
+font-size:30px;
+}
+.about .content .para{
+font-size:30px;
+color:#ff8080;
+text-align:center;
+}
+.Reviews .first{
+text-align:center;
+font-size:52px;
+text-shadow: 2px 2px 5px  black;
+}
+.Contact .f{
+font-size:25px;
+text-shadow: 2px;
+font-family:Times New Roman;
+text-align:center;
+font-size:25px;
+}
+.Contact .second{
+font-size:25px;
+font-family:Times New Roman;
+text-align:center;
+font-size:48px;
+text-shadow:2px 2px 5px black;
+}
+
+.Contact .f{
+  margin: 8px ;
+  padding: 20px 12px;
+  
+}
+
+.contact .f1 {
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact .f5 :hover {
+  background-color:  #C5FAD5;
+}
+
+.leftdiv{
+float:left;
+width:30%;
+height:300px;
+background-color:#F0F0F0;
+font-size:20px;
+}
+.middlediv
+{
+float:left;
+width:30%;
+height:300px;
+background-color:#F0F0F0;
+font-size:20px;
+}
+.rightdiv{
+float:left;
+width:30%;
+height:300px;
+background-color:#F0F0F0;
+font-size:20px;
+}
+.about div{
+padding:20px;
+width:30%;
+border:solid black 3px;
+border-radius:8px;
+}
+
+.Reviews #slideshow
+{
+overflow:hidden;
+height:700px;
+width:728px;
+margin:0 auto;
+}
+.Reviews .slide{
+float:left;
+height:700px;
+width:728px;
+}
+
+.Reviews .slide-wrapper{
+width:calc(728px*4);
+animation:slide 10s ease infinite;
+}
+@keyframes slide{
+20%{ 
+margin-left:0px;
+}
+40%
+{
+margin-left:calc(-728px*1);
+}
+60%
+{
+margin-left:calc(-728px*2);
+}
+80%
+{
+margin-left:calc(-728px*3);
+}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+body
+{
+background-color:aliceblue;
+}
+
+.head
+{
+text-align:center;
+font-size:48px;
+text-shadow: 5px;
+border-style=hidden hidden solod hidden;
+border-radius:12px;
+font-size:48px;
+color:#0e387a;
+background-color:#9fafca;
+}

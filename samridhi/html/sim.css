@@ -1,0 +1,31 @@
+body
+{
+background-color: lightgrey; 
+color: blue;
+}
+h1
+{
+font-size:100px;
+background-color:black;
+color:white; 
+font-style: oblique;
+text-align:center;
+font-weight: bold;
+}
+div
+{
+font-size:70px;
+}
+a
+{
+font-size:50px;
+}
+p
+{
+background-color: #404040;
+  border-style: double;
+  border-width: 5px;
+  border-color:black;
+  font-size:30px;
+  text-align:center;
+}

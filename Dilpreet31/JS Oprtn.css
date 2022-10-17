@@ -1,0 +1,31 @@
+body{
+    background: gray url("Kpng.webp") no-repeat bottom right;
+    background-attachment: fixed;
+    background-size: 30% 30%;
+}
+h1{
+  color: white;
+  background-color: #595959;
+  font-size: 60px;
+  text-align: center;
+  font-family: georgia;
+  border-style: hidden hidden solid hidden;
+  border-radius: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
+ }
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: dotted;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover,a:active{
+background-color:black;
+color:white;
+border: solid black;
+}
+ 

@@ -1,0 +1,45 @@
+body
+{
+background-color:Lavender;
+}
+
+div.a
+{
+text-align:center;
+font-style:italic;
+font-size:70px;
+}
+
+div.b
+{
+font-style:oblique;
+font-size:50px;
+}
+
+div.c
+{
+font-style: oblique;
+font-size:50px;
+}
+
+input[type=button]
+{
+font-size:50px;
+padding: 5px 10px;
+margin: 2px 1px;
+cursor: pointer;
+}
+
+p
+{
+background-image:url('p39.jpg');
+width: 300px;
+border: 15px solid black;
+padding: 50px;
+margin: 20px;
+}
+
+a
+{ 
+font-size:20px;
+}

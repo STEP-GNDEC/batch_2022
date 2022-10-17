@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>functions</title>
+<link rel="stylesheet" href="fctn.css">
+<script type = "text/javascript">
+function concatenate(first, last) 
+{
+            var full;
+            full = first + last;
+            return full;
+}
+         function secondFunction() 
+{
+            var result;
+            result = concatenate('Zara', 'Ali');
+            document.write (result );
+}
+</script>      
+</head>
+<body>
+<br>
+<div class="a"> RETURN A FUNCTION()</div><br>
+<div class="b">A JavaScript function can have an optional return statement. 
+This is required if you want to return a value from a function. 
+This statement should be the last statement in a function.
+For example,
+you can pass two numbers in a function and then you can expect
+the function to return their multiplication in your calling program.</div><br><br>
+<div class="c">Click the following button to return the function</div><br><br><br><br> 
+      <form style="text-align:center">
+         <input type = "button" onclick="secondFunction()" value = "Call Function">
+      </form>      
+<br>
+<br>
+<center><a href="functions.html">FUNCTIONS</a></center>     
+</body>
+</html>

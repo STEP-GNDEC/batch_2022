@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>javascript</title>
+<link rel="stylesheet"href="control.css">
+</head>
+<body>
+<h1>CONTINUE STATEMENT</h1>
+<div>The continue statement tells the interpreter to immediately start the next
+iteration of the loop and skip the remaining code block. When a continue statement is encountered, 
+the program flow moves to the loop check expression immediately and if the 
+condition remains true, then it starts the next iteration, 
+otherwise the control comes out of the loop.</div>
+<center><img src="p35.png" height="50%" width="50%">
+<script langyage="javascript" type="text/javascript">
+          document.write("<p>");
+          var x = 4;
+         document.write("Entering the loop<br /> ");
+         
+         while (x < 40) {
+            if (x == 6) {
+               continue;  
+            }
+            x = x + 4;
+            document.write( x + "<br />");
+         }         
+         document.write("Exiting the loop!<br /> ");
+</script>
+<center><a href="loops.html">LOOPS</a></center>
+</body>
+</html>
